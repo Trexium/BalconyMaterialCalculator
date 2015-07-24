@@ -1,0 +1,101 @@
+
+body {
+	background: #FEF9D9;
+}
+h1#title {
+	background: #FFE506;
+	border: 0px solid black;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	margin-top: -15px;
+	margin-left: -40px;
+	margin-right: -40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+
+}
+
+#calc {
+	position: relative;
+	width: 600px;
+	height: auto;
+	margin:100px auto;
+	padding:15px 40px 15px;
+	background: #FEF1A2;
+	background: radial-gradient(#FEF9D9, #FEF1A2);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family:"Titillium Web";
+}
+
+#calc div {
+	float:top;
+}
+
+fieldset {
+	width: 40%;
+	position:relative;
+	border-radius: 10px;
+	
+}
+
+fieldset#type {
+	float:right;
+	float:left;
+}
+
+fieldset#balcony {
+	float:right;
+	float:top;
+	height:300px;
+}
+
+fieldset#wood {
+	float:left;
+}
+
+label {
+	display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+    width:90px;
+}
+
+input {
+	display: inline-block;
+  	float: left;
+	width:100px;
+	border:1px solid #FEF9D9;
+	border-radius: 4px;
+	margin: 5px;
+	outline: 0;
+	padding: 7px;
+	font-size: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #FDF0A6;
+	color: #8a97a0;
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3) inset;
+	font-family: "Titillium Web";
+	position:relative;
+	right: 1px;
+}
+
+input:focus {
+	border:1px solid #C3B980;
+	font-weight: bold;
+	color: black;
+}
+
+input:hover {
+	border:1px solid #C3B980;
+}
+
+div#lshape_measurements {
+	visibility: hidden;
+}
